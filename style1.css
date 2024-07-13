@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(36, 78, 156);
+}
+
+h2{ 
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: "Roboto mono", monospace;
+    padding-top: 100px;
+    color:#fff;
+
+
+}
+
+.container
+{
+    background-color: #fff;
+    width:40%;
+    min-width:500px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    padding:20px 0;
+    padding-bottom:50px;
+    border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,0.338);
+
+}
+
+.stopwatch-display,.timer-display{
+    font-family: "Roboto mono", monospace;
+    color: cornflowerblue;
+    font-size: 35px;
+    padding: 40px;
+    width:92%;
+    position: relative;
+    left: 4%;
+    padding:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow:0 0 20px rgba(8, 5, 56, 0.351);
+
+}
+.buttons{
+    width: 90;
+    margin:60px auto 0 auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width:150px;
+    height:52px;
+    background-color:rgb(36, 78, 156);
+    color:#fff;
+    border:none;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline:none ;
+}
+.buttons button:nth-last-child(2){
+    background-color:rgba(239, 44, 44, 0.871);
+}
+.buttons button:nth-last-child(1){
+    background-color:rgba(132, 239, 44, 0.871);
+}
+.buttons button:hover{
+    box-shadow:0 0 20px rgba(8, 5, 56, 0.351);
+}
+#stopwatch,#countdown-timer{
+
+    color:#fff;
+    background-color:rgb(36, 78, 156);
+    width:170px;
+    height:55px;
+    border:none;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline:none ;
+
+}
+.img{
+    border-radius:90%;
+    height: 50px;
+    width:50px;
+    position: relative;
+    float:left;
+}
